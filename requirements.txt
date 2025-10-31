@@ -1,0 +1,22 @@
+# PESTLE Classification System - Requirements
+# ==========================================
+
+# Web Framework
+streamlit==1.39.0
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+
+# Machine Learning
+scikit-learn==1.5.2
+scipy==1.14.1
+
+# Model Persistence
+pickle5==0.0.12
+
+# Additional utilities (included with Python standard library)
+# json - built-in
+# pathlib - built-in
+# datetime - built-in
+# warnings - built-in
