@@ -8,9 +8,18 @@ streamlit==1.39.0
 pandas==2.2.3
 numpy==1.26.4
 
-# Machine Learning
+# Machine Learning - Scikit-learn
 scikit-learn==1.5.2
 scipy==1.14.1
+
+# Apache Spark (Distributed Processing)
+pyspark==3.5.3
+
+# Java requirement for PySpark:
+# Install Java 8 or 11 separately:
+# - Windows: Download from https://adoptium.net/
+# - Mac: brew install openjdk@11
+# - Linux: sudo apt-get install openjdk-11-jdk
 
 # Model Persistence
 pickle5==0.0.12
