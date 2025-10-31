@@ -1,31 +1,19 @@
-# PESTLE Classification System - Requirements
-# ==========================================
-
-# Web Framework
-streamlit==1.39.0
+# Core Web Framework
+streamlit>=1.28.0
 
 # Data Processing
-pandas==2.2.3
-numpy==1.26.4
-
-# Machine Learning - Scikit-learn
-scikit-learn==1.5.2
-scipy==1.14.1
+pandas>=2.0.0
+numpy>=1.24.0
 
 # Apache Spark (Distributed Processing)
-pyspark==3.5.3
+pyspark>=3.4.0
 
-# Java requirement for PySpark:
-# Install Java 8 or 11 separately:
-# - Windows: Download from https://adoptium.net/
-# - Mac: brew install openjdk@11
-# - Linux: sudo apt-get install openjdk-11-jdk
+# Machine Learning - Scikit-learn
+scikit-learn>=1.3.0
+scipy>=1.11.0
 
 # Model Persistence
-pickle5==0.0.12
+pickle5>=0.0.11; python_version < '3.8'
 
-# Additional utilities (included with Python standard library)
-# json - built-in
-# pathlib - built-in
-# datetime - built-in
-# warnings - built-in
+# Utilities
+pathlib>=1.0.1
