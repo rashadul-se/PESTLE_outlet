@@ -1120,6 +1120,9 @@ def show_about_page():
     This production-ready PESTLE Classification System leverages cutting-edge technologies 
     to provide accurate, scalable text classification for business intelligence and strategic analysis.
     
+    ### Download dataset
+    https://raw.githubusercontent.com/rashadul-se/PESTLE_outlet/refs/heads/main/pestle_news_samples_6000_rows.csv
+    
     ### Technology Stack
     
     - **Frontend**: Streamlit
