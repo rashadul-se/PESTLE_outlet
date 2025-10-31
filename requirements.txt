@@ -5,15 +5,25 @@ streamlit>=1.28.0
 pandas>=2.0.0
 numpy>=1.24.0
 
-# Apache Spark (Distributed Processing)
+# Apache Spark
 pyspark>=3.4.0
 
-# Machine Learning - Scikit-learn
+# Database
+# sqlite3 is included in Python standard library
+
+# Data Visualization
+plotly>=5.17.0
+
+# Machine Learning
 scikit-learn>=1.3.0
-scipy>=1.11.0
 
-# Model Persistence
-pickle5>=0.0.11; python_version < '3.8'
+# HTTP Requests
+requests>=2.31.0
 
-# Utilities
-pathlib>=1.0.1
+# Additional utilities
+# pickle is included in Python standard library
+# json is included in Python standard library
+# pathlib is included in Python standard library
+# datetime is included in Python standard library
+# io is included in Python standard library
+# warnings is included in Python standard library
